@@ -1,8 +1,93 @@
-body {
-    background-color: aquamarine;
+* {
+    margin: 0;
+    padding-top: 5px;
+    font-size: 20px;
+    
+}
+header {
+    background-image: url(./img/pattern.png);
+    height: 200px;
+    background-color: rgb(69, 189, 230);
 }
 
-.container {
-    color: red;
-    background-color: salmon;
+.logo {
+    height: 100px;
+    margin: auto;
+    padding: 70px;
+    
+}
+
+h1 {
+    font-size: 70px;
+}
+
+main {
+    margin: 70px;
+    width: 1500px;
+}
+
+h3 {
+    font-style: italic;
+    color: grey;
+}
+
+span {
+    color: rgb(34, 197, 197);
+}
+
+#data {
+    font-size: 15px;
+}
+
+.tim {
+    height: 500px;
+    padding-top: 10px;
+}
+
+section {
+    padding-top: 20px;
+} 
+
+.lista {
+    padding-top: 30px;
+}
+
+table {
+    padding-top: 30px;
+}
+
+th {
+    background-color: rgb(145, 241, 241);
+    color: white;
+    width: 33%;
+}
+
+.row {
+    background-color: rgb(72, 218, 218);
+}
+
+footer {
+    margin-left: 70px;
+    color: gray;
+}
+
+.image1{
+    background-image: url(./img/monitor.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 200px;
+    width: 300px;
+}
+
+.image2 {
+    background-image: url(./img/graph.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 200px;
+    width: 300px;
+}
+
+.text-img {
+    font-size: 30px;
+    color: white;
 }
